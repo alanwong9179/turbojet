@@ -1,13 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import routing from './config/routing';
+
+// theming
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import color from './config/color';
+const mainTheme = createTheme({
+  palette: {
+    primary: {
+      main: color.primary
+    }
+  }
+})
+
+const router = createBrowserRouter(routing)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider theme={mainTheme}>
+      <RouterProvider router={router} />
+    </ThemeProvider>
   </React.StrictMode>
 );
 

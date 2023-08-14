@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/turbojet/static/css/main.e6c13ad2.css",
-    "main.js": "/turbojet/static/js/main.c245847c.js",
+    "main.js": "/turbojet/static/js/main.0e11151a.js",
     "static/js/787.0fd68730.chunk.js": "/turbojet/static/js/787.0fd68730.chunk.js",
     "static/media/TJT_Logo.png": "/turbojet/static/media/TJT_Logo.60a0b3a450366a4f546b.png",
     "index.html": "/turbojet/index.html",
     "main.e6c13ad2.css.map": "/turbojet/static/css/main.e6c13ad2.css.map",
-    "main.c245847c.js.map": "/turbojet/static/js/main.c245847c.js.map",
+    "main.0e11151a.js.map": "/turbojet/static/js/main.0e11151a.js.map",
     "787.0fd68730.chunk.js.map": "/turbojet/static/js/787.0fd68730.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.c245847c.js"
+    "static/js/main.0e11151a.js"
   ]
 }
